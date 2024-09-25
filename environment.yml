@@ -1,0 +1,21 @@
+name: deep-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - tensorflow
+  - keras
+  - numpy
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - h5py
+  - pillow
+  - tqdm
+  - scikeras
+  - sklearn
+  - umap
+  - scipy
+  - pip
