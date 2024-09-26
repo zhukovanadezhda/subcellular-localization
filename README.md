@@ -2,13 +2,33 @@
 
 This repository contains a deep learning project designed to predict protein subcellular localization using neural networks (Dense Model, CNN, ResNet). The models are trained on protein sequences to classify them into 10 possible localization categories. Subcellular localization refers to the specific location or environment within a cell where a protein resides. Correctly identifying this is essential for understanding the protein's function and role in biological processes. 
 
-## 💻 Usage
+## 🔄Installation
 
-To install the necessary dependencies, you can use the environment file provided:
+### Clone the repository
 
 ```bash
-conda create --file environment.yml
+git clone git@github.com:zhukovanadezhda/subcellular-localization.git
+cd subcellular-localization
 ```
+### Setup the conda environment
+
+Install [miniconda](https://docs.conda.io/en/latest/miniconda.html). Create the `deep-learning` conda environment:
+
+```bash
+conda env create -f environment.yml
+```
+
+### Load the environment
+
+```bash
+conda activate deep-learning
+```
+
+> 💡**Note:** To deactivate an active environment, use:
+> ```bash
+> conda deactivate
+> ```
+
 
 ## 📄 References
 
